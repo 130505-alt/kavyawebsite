@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kavya Lodha</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 60px; 
+}
+
+       
+        .portfolio-page {
+            background-color: #C8E6C9; 
+            color: #333;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #388E3C;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .modal-body {
+            background-color: #F8F9FA;
+        }
+
+        .modal-title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="portfolio-page">
+
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kavya Lodha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+        <h1>My Projects</h1>
+        <p>Explore my design work, where creativity meets functionality. Here are some of my favorite projects.</p>
+
+     
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+         
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                    <img src="water intake2.jpg.png" class="img-fluid" alt="Project 1">
+                </div>
+            </div>
+           
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                    <img src="poster.jpg.png" class="img-fluid" alt="Project 2">
+                </div>
+            </div>
+          
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                    <img src="food packaging.jpg.png" class="img-fluid" alt="Project 3">
+                </div>
+            </div>
+          
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project4Modal">
+                    <img src="history3.jpg.png" class="img-fluid" alt="Project 4">
+                </div>
+            </div>
+           
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project5Modal">
+                    <img src="lettercap2.jpg.png" class="img-fluid" alt="Project 5">
+                </div>
+            </div>
+           
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project6Modal">
+                    <img src="KAVYAA.JPG.png" class="img-fluid" alt="Project 6">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project7Modal">
+                    <img src="history.jpg.png" class="img-fluid" alt="Project 7">
+                </div>
+            </div>
+         
+            <div class="col">
+                <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#project8Modal">
+                    <img src="history2.jpg.png" class="img-fluid" alt="Project 8">
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Project 1: Sip, Fill, and Stay Chill</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="water intake2.jpg.png" class="img-fluid" alt="Project 1"> 
+                    <p>This research kit focuses on water intake habits in a fun and interactive way. Participants use custom-designed bottles and activities like color-filling, ticking questions, and sticker mood boards to track their hydration. It’s all about making surveys engaging while promoting healthy water habits!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Project 2: We Are All Connected: Community-Based Conservation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="poster.jpg.png" class="img-fluid" alt="Project 2">
+                    <p>This poster highlights the importance of biodiversity and how every creature, from the smallest ant to the tallest tree, is part of our shared ecosystem. With vibrant visuals and a clear message, it calls for action to protect and conserve our environment as one big family.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project3ModalLabel">Project 3: Fudge Bliss: A Sweet Design Journey</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="food packaging.jpg.png" class="img-fluid" alt="Project 3">
+                    <p>This project combines custom typography and vibrant packaging to create an irresistible chocolate box. The bold, playful font adds personality, while the design highlights the indulgent and premium feel of single-origin chocolates. A perfect blend of creativity and sweetness!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project4ModalLabel">Project 4: My Brush of Wonderland</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="history3.jpg.png" class="img-fluid" alt="Project 4">
+                    <p>"Elysian Wines: A vineyard bathed in the warm hues of a Romantic sunset, where rows of lush grapevines stretch towards the horizon, capturing the essence of nature's splendor and nostalgic charm. This scene encapsulates the Romanticism movement's celebration of beauty, emotion, and the sublime in the natural world."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="modal fade" id="project5Modal" tabindex="-1" aria-labelledby="project5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project5ModalLabel">Project 5: Letter Cap</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="lettercap2.jpg.png" class="img-fluid" alt="Project 5">
+                    <p>A playful twist on typography. This letter cap reimagines the letter “W” as a blooming garden, combining classic letterforms with vibrant floral illustrations. It’s a perfect blend of modern design and timeless elegance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project6Modal" tabindex="-1" aria-labelledby="project6ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project6ModalLabel">Project 6: Letter Cap</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="KAVYAA.JPG.png" class="img-fluid" alt="Project 5">
+                    <p> Multifaceted Artistry: This canvas on canvas features a trio of paintings, including a serene landscape, an abstract masterpiece, and lively figures among sunflowers. Scattered pieces of jewelry, intricate paper quilling, and vibrant 3D flowers add to its eclectic charm, creating a unique fusion of traditional and modern artistic elements."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project7Modal" tabindex="-1" aria-labelledby="project7ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project7ModalLabel">Project 5: Letter Cap</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="history.jpg.png" class="img-fluid" alt="Project 7">
+                    <p>**B.P. Grimaud – Baroque Elegance Redefined**  
+                        Inspired by the opulent grandeur of the Baroque era, this playing card packaging showcases intricate floral motifs, ornate gold accents, and classical artistry. The design captures a sense of heritage and luxury, blending timeless sophistication with a modern touch. A tribute to tradition reimagined with creativity and elegance!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project8Modal" tabindex="-1" aria-labelledby="project5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project5ModalLabel">Project 8: Letter Cap</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="history2.jpg.png" class="img-fluid" alt="Project 8">
+                    <p>**Sip Art – Where Style Meets Creativity**  
+                        Inspired by the bold colors and emotion of Post-Impressionism, this design transforms beverage packaging into a vibrant work of art. Combining functionality with creativity, it invites you to “Sip in Style, Savor the Art.” A project that blends practicality with artistic expression!.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3 fixed-bottom">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Kavya Lodha. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
